@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-actividad 2.1 - Multimedia y Formularios</title>
+</head>
+<body>
+
+    <header>
+        <h1 style="color: #FF4500; font-family: sans-serif;">Mundo Gamer: Multimedia y Formularios</h1>
+        <p><strong>Autor de la Pagina:</strong> Enmanuel Armando Briceño Estrada</p>
+        <p><strong>Cédula de Identidad:</strong> 33087767</p>
+        <hr>
+        <nav>
+            <ul>
+                <li><a href="archivo1_estructura_semantica.html">1. Estructura y Semántica</a></li>
+                <li><a href="archivo2_multimedia_formularios.html">2. Multimedia y Formularios</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Explicación de Conceptos: Multimedia y Formularios en HTML5</h2>
+            <p>HTML5 introdujo etiquetas nativas para reproducir contenido multimedia sin necesidad de plugins externos, además de formularios robustos con validaciones automáticas.</p>
+            
+            <article>
+                <h3>Etiquetas Multimedia y de Interacción</h3>
+                <ul>
+                    <li><strong>&lt;video&gt; y &lt;audio&gt;:</strong> Permiten insertar elementos de reproducción multimedia directamente, controlados mediante atributos como <code>controls</code>.</li>
+                    <li><strong>&lt;figure&gt; y &lt;figcaption&gt;:</strong> Se emplean para agrupar elementos visuales (como imágenes) junto a su respectiva leyenda o descripción oficial.</li>
+                    <li><strong>&lt;form&gt;, &lt;fieldset&gt; y &lt;legend&gt;:</strong> Estructuran formularios web agrupando lógicamente los campos de entrada de datos del usuario.</li>
+                </ul>
+            </article>
+        </section>
+
+        <section>
+            <h2>Ejemplo Práctico de Multimedia</h2>
+            <p>Demostración de etiqueta de video con atributos nativos:</p>
+            <video width="400" controls poster="https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800">
+                <source src="trailer_ejemplo.mp4" type="video/mp4">
+                Tu navegador no admite reproducción directa de video.
+            </video>
+        </section>
+
+        <section>
+            <h2>Ejemplo Práctico de Formulario Interactivo</h2>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Ficha de Registro del Jugador</legend>
+                    <p>
+                        <label for="nombre">Nombre o Nickname:</label><br>
+                        <input type="text" id="nombre" name="nombre" placeholder="Ej. GamerPro" required>
+                    </p>
+                    <p>
+                        <label for="comentarios">Juego favorito:</label><br>
+                        <textarea id="comentarios" name="comentarios" rows="3" cols="30"></textarea>
+                    </p>
+                    <p>
+                        <button type="submit">Enviar Formulario</button>
+                    </p>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <hr>
+         <p>Volver al archivo anterior: <a href="archivo1_estructura_semantica.html">← Estructura y Semántica</a></p>
+    </footer>
+
+</body>
+</html>
